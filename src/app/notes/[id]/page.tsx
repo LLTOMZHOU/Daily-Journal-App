@@ -8,7 +8,6 @@ async function GetNotes(noteId: string) {
     }
   );
   const data = await res.json();
-  console.log(data);
   return data as any;
 }
 
